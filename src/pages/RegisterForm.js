@@ -7,7 +7,7 @@ import LoginButton from '../components/LoginButton'
 export default class RegisterForm extends Component {
   render () {
     return (
-      <View>
+      <View style = {styles.container} >
         <Input autoCapitalize='none' placeholder='Ad' />
         <Input autoCapitalize='none' placeholder='Soyad' />
         <Input autoCapitalize='none' placeholder='Mail' />
@@ -21,3 +21,9 @@ export default class RegisterForm extends Component {
     )
   }
 }
+const styles = StyleSheet.create({
+  container: {
+      width: 300,
+      height: 275
+   },
+})

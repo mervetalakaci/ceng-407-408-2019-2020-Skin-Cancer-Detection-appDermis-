@@ -31,7 +31,7 @@ export default class Login extends Component {
                     <View style={styles.signupAlani}>
                         <Text style={styles.signupDesc}>Hesabınız yok mu?</Text>
                         <TouchableOpacity>
-                            <Text style={styles.signupText}>Hesap Oluştur</Text>
+                            <Text onPress={() => this.props.navigation.navigate('Register')} style={styles.signupText}>Hesap Oluştur</Text>
                         </TouchableOpacity>
                     </View>
                 </KeyboardAvoidingView>

@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         elevation: 4
     },
     loginAreaTitle: {
-				padding: 20,
+		padding: 20,
         fontSize: 20,
         textAlign: 'center'
     },
